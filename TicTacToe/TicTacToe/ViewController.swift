@@ -10,11 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //MARK: - IB Outlet
+    
+    @IBOutlet weak var messageLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
+    
+    //MARK: - IB Actions
+    
+    @IBAction func buttons(_ sender: Any) {
+    }
+    
+    @IBAction func restartButton(_ sender: Any) {
+    }
+    
 
 }
 
