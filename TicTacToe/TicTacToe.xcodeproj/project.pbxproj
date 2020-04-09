@@ -58,6 +58,7 @@
 		4EE6205F243E768300DAFA28 /* TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
+				D424C7CB243F93FD00C5E331 /* Conflict */,
 				D424C7C7243F875500C5E331 /* UI */,
 				D424C7C4243F873900C5E331 /* Model */,
 				D424C7C5243F874900C5E331 /* Model Controller */,
@@ -108,6 +109,13 @@
 				4EE6206E243E768900DAFA28 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		D424C7CB243F93FD00C5E331 /* Conflict */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Conflict;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
