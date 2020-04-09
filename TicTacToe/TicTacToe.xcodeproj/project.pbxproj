@@ -56,7 +56,9 @@
 		4EE6205F243E768300DAFA28 /* TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
+
 				4EE62074243EC6C200DAFA28 /* Testing */,
+				D424C7C3243EC55E00C5E331 /* Test Folder */,
 				4EE62060243E768300DAFA28 /* AppDelegate.swift */,
 				4EE62062243E768300DAFA28 /* SceneDelegate.swift */,
 				4EE62064243E768300DAFA28 /* ViewController.swift */,
@@ -68,11 +70,18 @@
 			path = TicTacToe;
 			sourceTree = "<group>";
 		};
+
 		4EE62074243EC6C200DAFA28 /* Testing */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Testing;
+
+		D424C7C3243EC55E00C5E331 /* Test Folder */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Test Folder";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
