@@ -11,7 +11,8 @@ import UIKit
 class ViewController: UIViewController {
     
     //MARK: - Properties
-    var currentPlayer = 1 // 1 is Joe, 2 is Carol
+    var player1 = true
+    var player2 = false
     
 
     //MARK: - IB Outlet
@@ -23,16 +24,26 @@ class ViewController: UIViewController {
     
     //MARK: - IB Actions
     @IBAction func buttons(_ sender: UIButton) {
-        if currentPlayer == 1 {
-            sender.setImage(UIImage(named: "JoeExotic"), for: [])
-            currentPlayer = 2
+        if player1 == true && player2 == false {
+            setButton(button: sender, forPlayer: 1)
+        } else if player2 == true && player1 == false {
+            setButton(button: sender, forPlayer: 2)
         } else {
-            sender.setImage(UIImage(named: "CaroleBaskin"), for: [])
-            currentPlayer = 1
+            print("Error")
         }
     }
     
     @IBAction func restartButton(_ sender: Any) {
+    }
+    
+    private func setButton(button: UIButton, forPlayer player: Int) {
+        if player == 1 {
+            button.setBackgroundImage(UIImage(named: "JoeExotic"), for: .normal)
+        } else if player == 2{
+            button.setBackgroundImage(UIImage(named: "CaroleBaskin"), for: .normal)
+        } else {
+            print("error")
+        }
     }
     
 
