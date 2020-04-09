@@ -118,6 +118,13 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		D424C7CB243F93FD00C5E331 /* Conflict */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Conflict;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
